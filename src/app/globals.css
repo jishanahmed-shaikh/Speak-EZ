@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #a9ffa8; /* Light Tint color */
+  --foreground: #171717; /* Keep dark text for contrast */
+  
+  /* Keep your gradient variables the same or adjust them */
+  --gradient-from: #a9ffa8;
+  --gradient-via: #f8f6e9;
+  --gradient-to: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Add custom gradient utilities */
+  --color-gradient-from: var(--gradient-from);
+  --color-gradient-via: var(--gradient-via);
+  --color-gradient-to: var(--gradient-to);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    
+    /* Optionally adjust gradient for dark mode */
+    --gradient-from: #22d3ee; /* cyan-400 - slightly darker */
+    --gradient-via: #818cf8;  /* blue-400 - slightly darker */
+    --gradient-to: #ec4899;   /* pink-500 - slightly darker */
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Custom gradient background utility */
+.bg-custom-gradient {
+  background: linear-gradient(to right, var(--gradient-from), var(--gradient-via), var(--gradient-to));
+}
+
+/* Alternative: Full viewport gradient background */
+.bg-gradient-page {
+  background: linear-gradient(to right, var(--gradient-from), var(--gradient-via), var(--gradient-to));
+  min-height: 100vh;
+}
+
+/* For components that need the gradient */
+.gradient-container {
+  background: linear-gradient(to right, var(--gradient-from), var(--gradient-via), var(--gradient-to));
+}
