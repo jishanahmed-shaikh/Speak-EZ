@@ -75,17 +75,17 @@ export const TRANSLATIONS: Translations = {
     // About View
     aboutTitle: "About SpeakEZ",
     ourMission: "Our Mission",
-    missionText: "SpeakEZ is designed to break down communication barriers and make digital interaction accessible for everyone. We believe that technology should empower all users, regardless of their abilities or language preferences.",
+    missionText: "SpeakEZ is designed to break down communication barriers for people with Speech Disabilities. We believe that technology should empower all users, regardless of their abilities or language preferences.",
     keyFeatures: "Key Features",
-    feature1: "Voice-to-text and text-to-voice conversion",
-    feature2: "Multi-language support for global accessibility",
+    feature1: "Text-to-Voice conversion",
+    feature2: "Multi-language support for Global accessibility",
     feature3: "Customizable interface with dark/light themes",
     feature4: "Emergency SOS functionality",
-    feature5: "Favorite phrases for quick communication",
+    feature5: "Favorite & Frequently used phrases for quick communication",
     accessibilityFirst: "Accessibility First",
-    accessibilityText: "Built with universal design principles, SpeakEZ ensures that users with various abilities can communicate effectively. Our interface is optimized for screen readers, voice navigation, and touch accessibility.",
+    accessibilityText: "SpeakEZ ensures that users with Speech Disabilities can communicate effectively. Our interface is simple and optimized for screen readers and touch accessibility.",
     appVersion: "SpeakEZ v1.0",
-    appTagline: "Making communication accessible for everyone",
+    appTagline: "Making communication accessible for everyone with Speech Disabilities",
 
     // Content
     emergencyMessages: [
