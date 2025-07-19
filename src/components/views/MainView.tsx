@@ -73,17 +73,27 @@ const PhraseButton = ({ phrase, onSpeak, isFavorited, onToggleFavorite, classNam
   );
 };
 
+interface MainViewProps {
+  input: string;
+  setInput: (value: string) => void;
+  handleSpeak: (text: string) => void;
+  isFavorited: (phrase: string) => boolean;
+  handleFavorite: (phrase: string) => void;
+  handleUnfavorite: (phrase: string) => void;
+  selectedLanguage: string;
+  contrast: boolean;
+}
 
 export function MainView({
-  input = '',
-  setInput = () => {},
-  handleSpeak = () => {},
-  isFavorited = () => false,
-  handleFavorite = () => {},
-  handleUnfavorite = () => {},
-  selectedLanguage = 'en',
-  contrast = false
-}) {
+  input,
+  setInput,
+  handleSpeak,
+  isFavorited,
+  handleFavorite,
+  handleUnfavorite,
+  selectedLanguage,
+  contrast
+}: MainViewProps) {
   const T = useMemo(() => TRANSLATIONS[selectedLanguage] || TRANSLATIONS['en'], [selectedLanguage]);
   const [isOnline, setIsOnline] = useState(navigator.onLine);
 
