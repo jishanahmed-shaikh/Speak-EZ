@@ -1,0 +1,31 @@
+# Ignore node_modules (Vercel installs dependencies itself)
+node_modules
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs (re-built by Vercel anyway)
+.next
+dist
+out
+
+# Env & config
+.env.local
+.env.*.local
+
+# Git
+.git
+.gitignore
+
+# IDE & editor files
+.vscode
+.idea
+
+# Misc
+*.tsbuildinfo
+coverage
