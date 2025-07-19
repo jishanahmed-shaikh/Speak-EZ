@@ -9,15 +9,24 @@ interface BottomNavProps {
   isDark?: boolean;
 }
 
-const NavButton = ({ 
+type NavButtonProps = {
+  label: string;
+  icon: React.ReactNode;
+  isActive: boolean;
+  activeClass?: string;
+  onClick: () => void;
+  pulse?: boolean;
+  isDark?: boolean;
+};
+
+const NavButton: React.FC<NavButtonProps> = ({ 
   label, 
   icon, 
   isActive, 
   activeClass, 
   onClick, 
-  pulse = false,
-  isDark = false,
-  showLabel = false
+  pulse, 
+  isDark 
 }) => (
   <button
     className={`
@@ -55,7 +64,7 @@ const NavButton = ({
     </div>
     
     {/* Label - only show when active or showLabel is true */}
-    {(isActive || showLabel) && (
+    {(isActive || false) && (
       <span className="relative z-10 text-xs font-medium tracking-wide">
         {label}
       </span>
