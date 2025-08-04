@@ -1,6 +1,8 @@
-# 🗣️ SpeakEZ
+# 🗣️ SpeakEZ - Giving Voice to the Voiceless
+
+
 <div align="center">
-  <img src="public/Icon.jpg" alt="SpeakEZ Logo" width="120" height="120" style="border-radius: 20px;">
+  <img src="public/Icon.jpg" alt="SpeakEZ Logo" width="150" height="150" style="border-radius: 20px;">
   
   **Empowering Communication Through Technology** 💬✨
   
@@ -23,6 +25,7 @@
 ## ✨ Features
 
 🎯 **Core Functionality**
+
 - 🗣️ **Text-to-Speech (TTS)** - Convert text to natural speech using Web Speech API
 - 🧠 **Smart Suggestions** - AI-powered contextual phrase recommendations
 - 📱 **Mobile-First Design** - Optimized for touch devices and mobile screens
@@ -31,6 +34,7 @@
 - 🚨 **Emergency Button** - Always accessible emergency communication
 
 🎨 **User Experience**
+
 - 🌈 **Customizable Interface** - Adjustable font sizes and contrast settings
 - ⭐ **Favorites System** - Save frequently used phrases for quick access
 - 🔄 **Smart Context** - Contextual phrase suggestions based on usage patterns
@@ -43,18 +47,21 @@
 ### 📦 Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 - **Node.js** (v18 or higher) 🟢
 - **npm** or **yarn** package manager 📦
 
 ### 🛠️ Installation & Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/your-username/speakez.git
    cd speakez
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -62,6 +69,7 @@ Before you begin, ensure you have the following installed:
    ```
 
 3. **Run the development server**
+
    ```bash
    npm run dev
    # or
@@ -69,9 +77,9 @@ Before you begin, ensure you have the following installed:
    ```
 
 4. **Open your browser**
-   
+
    Navigate to [http://localhost:3000](http://localhost:3000) 🌐
-   
+
    > 💡 **Pro Tip**: For the best experience, use mobile device emulation in your browser's dev tools or test on an actual mobile device!
 
 ---
@@ -79,12 +87,14 @@ Before you begin, ensure you have the following installed:
 ## 📱 Mobile-First Testing
 
 ### 🔧 Development Testing
+
 - **DevTools Emulation**: Use `Ctrl+Shift+M` (Chrome/Edge/Firefox) to toggle device toolbar 📲
 - **Touch Targets**: All interactive elements are minimum 44x44px for optimal touch accessibility 👆
 - **TTS Testing**: Test speech functionality by typing text or tapping phrase buttons 🎵
 - **Responsive Design**: Verify layouts work across different screen sizes (320px - 1200px+) 📐
 
 ### 📋 Testing Checklist
+
 - [ ] TTS functionality works on target devices 🔊
 - [ ] All buttons are easily tappable on mobile 📱
 - [ ] Emergency button is always accessible 🚨
@@ -97,9 +107,11 @@ Before you begin, ensure you have the following installed:
 ## 🧠 AI Integration & Voice Models
 
 ### 🎤 Default TTS Engine
+
 The application uses the browser's built-in **Web Speech API** for Text-to-Speech functionality by default - no additional setup required! 🎯
 
 ### 🤖 AI-Powered Smart Suggestions
+
 Currently integrated with **Groq SDK** for intelligent phrase suggestions. The app supports multiple AI providers:
 
 - **🟢 Groq** (Current) - Fast inference for real-time suggestions
@@ -110,6 +122,7 @@ Currently integrated with **Groq SDK** for intelligent phrase suggestions. The a
 ### ⚙️ Configuration Guide
 
 **Smart Suggestions Setup:**
+
 ```typescript
 // src/components/SmartSuggestions.tsx
 // Replace the placeholder with your preferred AI service
@@ -117,6 +130,7 @@ const suggestions = await yourAIService.generateSuggestions(context);
 ```
 
 **Custom TTS Engine:**
+
 ```typescript
 // src/components/TTSInput.tsx  
 // Swap out Web Speech API with your preferred TTS service
@@ -126,7 +140,9 @@ const speak = (text: string) => {
 ```
 
 ### 🔑 Environment Variables
+
 Create a `.env.local` file for API keys:
+
 ```env
 GROQ_API_KEY=your_groq_api_key_here
 OPENAI_API_KEY=your_openai_api_key_here
@@ -138,6 +154,7 @@ GOOGLE_AI_KEY=your_google_ai_key_here
 ## 🛠️ Customization & Development
 
 ### 📁 Project Structure
+
 ```
 src/
 ├── app/
@@ -155,12 +172,14 @@ src/
 ```
 
 ### 🎨 Styling & Theming
+
 - **Global Styles**: `src/app/globals.css` - Base styles and Tailwind imports
 - **Component Styles**: Tailwind CSS classes for responsive design
 - **Custom Themes**: Modify CSS variables for color schemes and typography
 - **Responsive Design**: Mobile-first approach with Tailwind breakpoints
 
 ### 🔧 Key Customization Points
+
 - **🏠 Layout Changes**: `src/app/page.tsx` - Main app structure and features
 - **🧩 UI Components**: `src/components/` - Modular, reusable interface elements  
 - **🎨 Visual Design**: Tailwind config and CSS variables for branding
@@ -171,12 +190,14 @@ src/
 ## 🧪 Testing & Quality Assurance
 
 ### 🔍 Manual Testing
+
 - **🖱️ Desktop Testing**: Verify all functionality works with mouse and keyboard
 - **📱 Mobile Testing**: Test on actual devices or browser emulation
 - **♿ Accessibility Testing**: Screen readers, keyboard navigation, color contrast
 - **🔊 Audio Testing**: TTS functionality across different browsers and devices
 
 ### 🤖 Automated Testing (Recommended Setup)
+
 ```bash
 # Install testing dependencies
 npm install --save-dev @testing-library/react @testing-library/jest-dom jest
@@ -186,12 +207,14 @@ npm test
 ```
 
 **Suggested Testing Libraries:**
+
 - **Jest** - Unit testing framework 🧪
 - **React Testing Library** - Component testing utilities 🔬
 - **Cypress** - End-to-end testing 🎯
 - **Axe** - Accessibility testing 🦮
 
 ### 📊 Performance Testing
+
 - **Lighthouse** - Performance, accessibility, and SEO audits 🚀
 - **Web Vitals** - Core web performance metrics 📈
 - **Mobile Performance** - Test on slower devices and networks 📶
@@ -206,7 +229,9 @@ npm test
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/speakez)
 
 **Manual Deployment:**
+
 1. **📤 Push to Repository**
+
    ```bash
    git add .
    git commit -m "Ready for deployment"
@@ -219,6 +244,7 @@ npm test
    - Vercel will auto-detect Next.js configuration
 
 3. **⚙️ Environment Variables**
+
    ```env
    GROQ_API_KEY=your_groq_api_key
    OPENAI_API_KEY=your_openai_api_key
@@ -230,12 +256,14 @@ npm test
    - Your app will be live in minutes!
 
 ### 🌐 Alternative Deployment Options
+
 - **Netlify** - Static site hosting with serverless functions 🟢
 - **Railway** - Full-stack deployment platform 🚂  
 - **AWS Amplify** - Scalable cloud hosting ☁️
 - **Docker** - Containerized deployment 🐳
 
 ### 📈 Production Checklist
+
 - [ ] Environment variables configured 🔑
 - [ ] Custom domain setup (optional) 🌐
 - [ ] Analytics integration 📊
@@ -247,11 +275,13 @@ npm test
 ## �  Technical Notes & Architecture
 
 ### 💾 Data Storage
+
 - **LocalStorage**: Favorites and custom phrases persist offline 🔄
 - **Session Management**: User preferences maintained across browser sessions
 - **Data Privacy**: All user data stays on device - no external storage 🔒
 
 ### ♿ Accessibility Features
+
 - **WCAG 2.1 AA Compliant**: Meets international accessibility standards ✅
 - **Screen Reader Support**: Semantic HTML and ARIA labels 🔊
 - **Keyboard Navigation**: Full functionality without mouse 🎹
@@ -259,6 +289,7 @@ npm test
 - **Touch Accessibility**: 44px minimum touch targets 👆
 
 ### 🏗️ Architecture Highlights
+
 - **React 19**: Latest React features with concurrent rendering ⚛️
 - **Next.js 15**: App Router with server components 🏃‍♂️
 - **TypeScript**: Type-safe development experience 📝
@@ -272,19 +303,24 @@ npm test
 We welcome contributions from the community! Here's how you can help:
 
 ### 🐛 Bug Reports
+
 Found a bug? Please [open an issue](https://github.com/your-username/speakez/issues) with:
+
 - Clear description of the problem
 - Steps to reproduce
 - Expected vs actual behavior
 - Browser/device information
 
 ### ✨ Feature Requests  
+
 Have an idea? [Create a feature request](https://github.com/your-username/speakez/issues) with:
+
 - Detailed description of the feature
 - Use case and benefits
 - Mockups or examples (if applicable)
 
 ### 🔧 Pull Requests
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
