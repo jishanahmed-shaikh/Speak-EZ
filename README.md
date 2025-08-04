@@ -56,8 +56,8 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/speakez.git
-   cd speakez
+   git clone https://github.com/jishanahmed-shaikh/Speak-EZ.git
+   cd Speak-EZ
    ```
 
 2. **Install dependencies**
@@ -304,7 +304,7 @@ We welcome contributions from the community! Here's how you can help:
 
 ### 🐛 Bug Reports
 
-Found a bug? Please [open an issue](https://github.com/your-username/speakez/issues) with:
+Found a bug? Please [open an issue](https://github.com/jishanahmed-shaikh/Speak-EZ/issues) with:
 
 - Clear description of the problem
 - Steps to reproduce
@@ -313,7 +313,7 @@ Found a bug? Please [open an issue](https://github.com/your-username/speakez/iss
 
 ### ✨ Feature Requests  
 
-Have an idea? [Create a feature request](https://github.com/your-username/speakez/issues) with:
+Have an idea? [Create a feature request](https://github.com/jishanahmed-shaikh/Speak-EZ/issues) with:
 
 - Detailed description of the feature
 - Use case and benefits
@@ -347,12 +347,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
   
-  **Made with ❤️ for the accessibility community**
+  **Made with ❤️ for the Specially-Abled Community**
   
-  [🌟 Star this repo](https://github.com/your-username/speakez) • [🐛 Report Bug](https://github.com/your-username/speakez/issues) • [💡 Request Feature](https://github.com/your-username/speakez/issues)
+  [🌟 Star this repo](https://github.com/jishanahmed-shaikh/Speak-EZ) • [🐛 Report Bug](https://github.com/jishanahmed-shaikh/Speak-EZ/issues) • [💡 Request Feature](https://github.com/jishanahmed-shaikh/Speak-EZ/issues)
   
   ---
   
-  *Empowering communication, one voice at a time* 🗣️✨
+  *Empowering Communication, One voice at a time* 🗣️✨
   
 </div>
