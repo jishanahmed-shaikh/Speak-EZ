@@ -1,24 +1,79 @@
-# SpeakEZ
+<div align="center">
+  <img src="public/Icon.jpg" alt="SpeakEZ Logo" width="120" height="120" style="border-radius: 20px;">
+  
+  # 🗣️ SpeakEZ
+  
+  **Empowering Communication Through Technology** 💬✨
+  
+  A mobile-first, accessible web application designed to empower non-verbal users to communicate effectively using Text-to-Speech (TTS), intelligent suggestions, and contextual phrase buttons.
+  
+  ![Next.js](https://img.shields.io/badge/Next.js-15.4.1-black?style=for-the-badge&logo=next.js&logoColor=white)
+  ![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white)
+  
+  ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+  ![Version](https://img.shields.io/badge/Version-0.1.0-blue?style=for-the-badge)
+  ![Mobile First](https://img.shields.io/badge/Mobile-First-FF6B6B?style=for-the-badge&logo=mobile&logoColor=white)
+  ![Accessibility](https://img.shields.io/badge/Accessibility-Ready-4ECDC4?style=for-the-badge&logo=accessibility&logoColor=white)
+</div>
 
-A mobile-first, accessible web app to empower non-verbal users to communicate using Text-to-Speech (TTS), smart suggestions, and contextual phrase buttons.
+---
+
+## ✨ Features
+
+🎯 **Core Functionality**
+- 🗣️ **Text-to-Speech (TTS)** - Convert text to natural speech using Web Speech API
+- 🧠 **Smart Suggestions** - AI-powered contextual phrase recommendations
+- 📱 **Mobile-First Design** - Optimized for touch devices and mobile screens
+- ♿ **Accessibility Ready** - WCAG compliant with proper contrast and touch targets
+- 💾 **Offline Support** - LocalStorage for favorites and custom phrases
+- 🚨 **Emergency Button** - Always accessible emergency communication
+
+🎨 **User Experience**
+- 🌈 **Customizable Interface** - Adjustable font sizes and contrast settings
+- ⭐ **Favorites System** - Save frequently used phrases for quick access
+- 🔄 **Smart Context** - Contextual phrase suggestions based on usage patterns
+- 📝 **Custom Phrases** - Create and manage personalized communication sets
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Install dependencies
+### 📦 Prerequisites
 
-```bash
-npm install
-```
+Before you begin, ensure you have the following installed:
+- **Node.js** (v18 or higher) 🟢
+- **npm** or **yarn** package manager 📦
 
-### 2. Run the development server
+### 🛠️ Installation & Setup
 
-```bash
-npm run dev
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/speakez.git
+   cd speakez
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) on your browser (preferably on a mobile device or using device emulation in browser dev tools).
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   
+   Navigate to [http://localhost:3000](http://localhost:3000) 🌐
+   
+   > 💡 **Pro Tip**: For the best experience, use mobile device emulation in your browser's dev tools or test on an actual mobile device!
 
 ---
 
