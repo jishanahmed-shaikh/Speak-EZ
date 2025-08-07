@@ -1,5 +1,7 @@
-# 🗣️ SpeakEZ - Giving Voice to the Voiceless
+<div align="center">
 
+# 🗣️ SpeakEZ - Giving Voice to the Voiceless
+</div>
 
 <div align="center">
   <img src="public/Icon.jpg" alt="SpeakEZ Logo" width="150" height="150" style="border-radius: 20px;">
